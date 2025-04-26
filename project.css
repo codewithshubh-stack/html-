@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4faff;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #0b5cab;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(to right, #2196f3, #0b5cab);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero .btn {
+  background-color: #ff9100;
+  padding: 12px 24px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.alt-bg {
+  background-color: #e3f2fd;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+
+ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+footer {
+  background: #0b5cab;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
